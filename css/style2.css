@@ -1,0 +1,46 @@
+body {
+	background-image: url(../image/bg.jpg);
+	background-size: cover;
+}
+
+#tikus-cover {
+	text-align: center;
+	position: relative;
+
+}
+
+#tikus-cover img{
+	margin-top:110px;
+}
+
+#judul {
+	color: white;
+	font-size: 2rem;
+	margin-left: 20px;
+}
+
+#mulai {
+	border: 1px solid black;
+	width: 200px;
+	height: 50px;
+	padding-top: 10px;
+	text-align: center;
+	border-radius: 40px;
+	margin: auto;
+	background-color: purple;
+	position: absolute;
+	top: 56%;
+	left: 48%;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+#mulai:hover{
+	transform: translateY(0) scale(2);
+}
+a{
+	text-decoration: none;
+	color: white;
+	font-size: 2rem;
+	text-align: center;
+}
